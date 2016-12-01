@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- title -->
+    <title>Ripple Effect</title>
+    <meta name="viewport" content="width=device-width, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="../src/css/ripple-effect.css">
+    <script src="../src/js/ripple-effect.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <div class="button ripple-effect">Button 1</div>
+        <div class="button ripple-effect red">Button 2</div>
+        <span class="separator"></span>
+        <div class="tiles-wrapper">
+            <div class="tile  ripple-effect">
+                <span class="text">1</span>
+            </div>
+            <div class="tile  ripple-effect">
+                <span class="text">2</span>
+            </div>
+            <div class="tile  ripple-effect">
+                <span class="text">3</span>
+            </div>
+            <div class="tile  ripple-effect">
+                <span class="text">4</span>
+            </div>
+        </div>
+        <span class="separator"></span>
+        <div class="menu">
+            <b>Menu with ripple effect</b>
+            <div class="menu-items-wrapper">
+                <div class="menu-item  ripple-effect">Item 1</div>
+                <div class="menu-item  ripple-effect">Item 2</div>
+                <div class="menu-item  ripple-effect">Item 3</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        RippleEffect.init();
+    </script>
+</body>
+
+</html>

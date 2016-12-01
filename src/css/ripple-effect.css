@@ -1,0 +1,38 @@
+.ripple {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 120px;
+    height: 120px;
+    margin-left: -50%;
+    margin-top: -50%;
+    background: rgba(90,90,90,0.5);
+    border-radius: 100%;
+    opacity: .6;
+    transform: scale(0);
+    transition: all 1s;
+}
+
+.ripple-effect{
+    position: relative;
+    overflow: hidden;
+}
+
+@keyframes ripple-effect {
+  0% {
+    transform: scale(0);
+  }
+  20% {
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2);
+  }
+}
+
+.ripple.animate{
+  animation: ripple-effect 1s;
+}
+
