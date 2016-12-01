@@ -1,8 +1,6 @@
-* * *
+
 
 ## Ripple Effect
-
-* * *
 
 Independent and lightweight implementation of ripple wave effect which can be used in web applications.
 
