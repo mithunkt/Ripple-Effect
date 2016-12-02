@@ -1,0 +1,20 @@
+{
+    "name": "ripple-effect",
+    "version": "1.0.0",
+    "main": "./src/js/ripple-effect.js",
+    "description": "Independent and lightweight implementation of ripple wave effect which can be used in web applications.",
+    "keywords": [
+        "ripple",
+        "effect",
+        "material design",
+        "web",
+        "lightweight",
+        "wave effect"
+    ],
+    "author": "Mithun KT <mithun_nambiar@yahoo.co.in>",
+    "homepage": "https://github.com/mithunkt/ripple-effect",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/mithunkt/ripple-effect"
+    }
+}
