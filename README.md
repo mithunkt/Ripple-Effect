@@ -1,8 +1,6 @@
-* * *
+
 
 ## Ripple Effect
-
-* * *
 
 Independent and lightweight implementation of ripple wave effect which can be used in web applications.
 
@@ -15,13 +13,13 @@ Mithun KT
 ### Usage
 Initialize ripple effect using init method.
 ```
-   RippleEffect.init();
+    RippleEffect.init();
 ```
 
 Add class name `ripple-effect` to the elements for which the effect to be applied.
 
 ```
- <div class="button ripple-effect">Button 1</div>
+    <div class="button ripple-effect">Button 1</div>
 ```
 ### Resources
 ```
